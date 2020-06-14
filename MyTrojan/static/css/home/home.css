@@ -1,0 +1,47 @@
+
+#myChart {
+    max-height: 247px;
+}
+
+body {
+    background-color: #000;
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+}
+
+.jb {
+    background-color: rgba(0, 0, 0, 0) !important;
+}
+
+.card {
+    background-color: rgba(0, 0, 0, 0.1);
+    box-shadow: #4e555b 0 0 10px 0;
+}
+
+table, tr, th, td, thead {
+    border-color: #4e555b !important;
+    color: white;
+}
+
+.card button {
+    box-shadow: #007BFF 0 0 10px 1px;
+}
+
+.table-responsive::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+}
+
+.table-responsive::-webkit-scrollbar-thumb {
+    border-radius: 5px;
+    -webkit-box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.2);
+    background: rgba(0, 0, 0, 0.2);
+}
+
+.table-responsive::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.2);
+    border-radius: 0;
+    background: rgba(0, 0, 0, 0.1);
+}
